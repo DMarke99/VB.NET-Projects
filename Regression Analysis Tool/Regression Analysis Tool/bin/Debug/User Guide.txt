@@ -15,8 +15,9 @@
 4) save as a 'CSV (Comma delimited)'
 
 ~ Tips ~
-1) Try to import datasets with many rows and few columns
-2) Do not import datasets with identical columns or columns which are evidently related
+1) Columns are 1-indexed in this program (The index of the first column is 1)
+2) Try to import datasets with many rows and few columns
+3) Do not import datasets with identical columns or columns which are evidently related
 	2a) If the program returns an error for either of multiple linear or multiplicative regression, use dependence analysis to find the problem
 	2b) Once a dependence analysis has found the independent columns, create a csv file containing only those columns and the column that you want to find a relationship for
 		2bi) If the column you are trying to find a relation for is one of the independent columns, select any other column from the available columns
