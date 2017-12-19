@@ -1,0 +1,18 @@
+﻿Summary Stats
+X              8.20915279     3510.77724     
+FX             1442.72055     157606478.     
+
+Summary Stats on Polynomial Regression degree 1 on X to X
+c: -0.000000000000000000000001468
+x^1: 1
+
+Summary Stats on Multiplicative Regression on X
+k: 0.3077
+FX: 0.477
+
+Summary Stats on Polynomial Regression degree 3 on X to FX
+c: 1.76
+x^1: 0.00962
+x^2: -0.000003124
+x^3: 0.000000000374
+

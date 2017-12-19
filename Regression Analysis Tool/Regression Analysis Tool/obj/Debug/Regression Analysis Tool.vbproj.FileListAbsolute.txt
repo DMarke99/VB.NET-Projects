@@ -1,0 +1,99 @@
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.config
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphForm.resources
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.Resources.resources
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.vbproj.GenerateResource.Cache
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.xml
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.pdb
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.pdb
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.xml
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.config
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.xml
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.pdb
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphForm.resources
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.Resources.resources
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.vbproj.GenerateResource.Cache
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.pdb
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.xml
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.MainMenu.resources
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.config
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.xml
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.pdb
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.pdb
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.xml
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphForm.resources
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.MainMenu.resources
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.Resources.resources
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.vbproj.GenerateResource.Cache
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.AnalysisForm.resources
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphFormSettings.resources
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphFormSettings.resources
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.AnalysisForm.resources
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.manifest
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.application
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe.manifest
+F:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.application
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.manifest
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.application
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe.manifest
+D:\School Work\Computer Science\NEA\Programs\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.application
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.config
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.xml
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.pdb
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.manifest
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.application
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.pdb
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.xml
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphForm.resources
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphFormSettings.resources
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.MainMenu.resources
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.AnalysisForm.resources
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.Resources.resources
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.vbproj.GenerateResource.Cache
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe.manifest
+D:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.application
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.config
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.xml
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.pdb
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.manifest
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.application
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.pdb
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.xml
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphForm.resources
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphFormSettings.resources
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.MainMenu.resources
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.AnalysisForm.resources
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.Resources.resources
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.vbproj.GenerateResource.Cache
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe.manifest
+F:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.application
+E:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.config
+E:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe
+E:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.xml
+E:\School Work\Computer Science\NEA\Code\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.pdb
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.config
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.xml
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.pdb
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe.manifest
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.application
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.exe
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.pdb
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\bin\Debug\Regression Analysis Tool.xml
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphForm.resources
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.GraphFormSettings.resources
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.MainMenu.resources
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.AnalysisForm.resources
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\RegressionAnalysisTool.Resources.resources
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.vbproj.GenerateResource.Cache
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.exe.manifest
+C:\Users\Diamor\Desktop\Regression Analysis Tool\Regression Analysis Tool\obj\Debug\Regression Analysis Tool.application

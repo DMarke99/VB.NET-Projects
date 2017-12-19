@@ -1,0 +1,24 @@
+~ Use ~
+1) Click 'Create New Session' and import a .csv file
+2) View data in the 'Data' Tab
+3) Use the tools in the 'Analysis' Tab to perform analysis on the dataset
+	3a) The analysis can be exported using the 'Save' button under the 'Analysis Window'
+4) Graphs can be drawn in the 'Plot Regression' option under 'Manual Analysis'
+	4a) Graphs can be saved using the 'Save Graph' option under 'File'
+	4b) You can edit the graph settings to alter the appearance of the graph
+
+~ Creating .csv files ~
+1) open Excel
+2) create a spreadsheet with the first header or first value in cell 'A1'
+	2a) There must be no columns left blank otherwise the program will encounter errors
+3) input the data you want to analyse
+4) save as a 'CSV (Comma delimited)'
+
+~ Tips ~
+1) Try to import datasets with many rows and few columns
+2) Do not import datasets with identical columns or columns which are evidently related
+	2a) If the program returns an error for either of multiple linear or multiplicative regression, use dependence analysis to find the problem
+	2b) Once a dependence analysis has found the independent columns, create a csv file containing only those columns and the column that you want to find a relationship for
+		2bi) If the column you are trying to find a relation for is one of the independent columns, select any other column from the available columns
+		2bii) Do not include columns which are just one value repeated
+

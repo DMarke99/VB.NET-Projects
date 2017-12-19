@@ -1,0 +1,841 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RegressionAnalysisTool
+</name>
+</assembly>
+<members>
+<member name="M:RegressionAnalysisTool.AddFunc.SigFigs(System.Decimal,System.Int32)">
+	<summary>
+ Returns a decimal rounded to a number of significant figures
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AddFunc.StandardForm(System.Decimal,System.Int32)">
+	<summary>
+ Returns a decimal number in standard form to
+ </summary>
+	<param name="n">The number to be converted to standard form</param>
+	<param name="sf">The number of significant figures the number will be returned to</param>
+</member><member name="M:RegressionAnalysisTool.AddFunc.QuickSort(System.Collections.Generic.List{System.Tuple{System.Decimal,System.Int32}}@)">
+	<summary>
+ Performs Quicksort on tuples
+ </summary>
+	<param name="Values">the list of values to be sorted</param>
+</member><member name="M:RegressionAnalysisTool.AddFunc.QuickSort(System.Collections.Generic.List{System.Tuple{System.Decimal,System.Int32}}@,System.Int32,System.Int32)">
+	<summary>
+  Performs Quicksort on tuples
+ </summary>
+	<param name="Values">the list of values to be sorted</param>
+	<param name="min">The minimum index to sort</param>
+	<param name="max">The maximum index to sort</param>
+</member><member name="M:RegressionAnalysisTool.AddFunc.Swap(System.Object@,System.Object@)">
+	<summary>
+ Swaps two object
+ </summary>
+	<param name="i">The first object to be swapped</param>
+	<param name="j">The second object to be swapped</param>
+</member><member name="T:RegressionAnalysisTool.AddFunc">
+	<summary>
+ Contains all the additional functions that are used in other classes and modules
+ </summary>
+</member><member name="P:RegressionAnalysisTool.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:RegressionAnalysisTool.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:RegressionAnalysisTool.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:RegressionAnalysisTool.NoInverseException">
+	<summary>
+ Creates an exception for no inverse of a matrix
+ </summary>
+</member><member name="T:RegressionAnalysisTool.MatrixCompatibilityException">
+	<summary>
+ Creates an exception for non-compatibility of matrices
+ </summary>
+</member><member name="T:RegressionAnalysisTool.CSVException">
+	<summary>
+ Creates an exception for csv exceptions
+ </summary>
+</member><member name="T:RegressionAnalysisTool.InvalidInputException">
+	<summary>
+ Creates an exception for invalid input into methods
+ </summary>
+</member><member name="T:RegressionAnalysisTool.ImproperGraphException">
+	<summary>
+ Creates an exception for invalid input into graphs
+ </summary>
+</member><member name="M:RegressionAnalysisTool.MainMenu.CreateNewSession_Click(System.Object,System.EventArgs)">
+	<summary>
+ Creates a new session based on a table at a given location
+ </summary>
+</member><member name="M:RegressionAnalysisTool.MainMenu.UserGuideButton_Click(System.Object,System.EventArgs)">
+	<summary>
+ Displays the user guide for operation of the program
+ </summary>
+</member><member name="M:RegressionAnalysisTool.MainMenu.ExitProject_Click(System.Object,System.EventArgs)">
+	<summary>
+ Procedure which acts upon clicking the exit button
+ </summary>
+</member><member name="M:RegressionAnalysisTool.MainMenu.MainMenuClose(System.Object,System.EventArgs)">
+	<summary>
+ Handles the closure of the project
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Matrix.Row">
+	<summary>
+ Represents the number of rows in the matrix
+ </summary>
+	<value>The value to replace the current number of rows</value>
+</member><member name="P:RegressionAnalysisTool.Matrix.Column">
+	<summary>
+ Represents the number of columns in the matrix
+ </summary>
+	<value>The value to replace the current number of columns</value>
+</member><member name="P:RegressionAnalysisTool.Matrix.Element(System.Int32,System.Int32)">
+	<summary>
+ Represents an element in the matrix
+ </summary>
+	<param name="a">The row of the matrix</param>
+	<param name="b">The column of the matrix</param>
+	<value>The decimal value to be input into the matrix in the specified position</value>
+	<remarks>Also the default property of the matrix class</remarks>
+</member><member name="M:RegressionAnalysisTool.Matrix.#ctor">
+	<summary>
+ Initialises a 2 by 2 square
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Matrix.#ctor(System.Int32)">
+	<summary>
+ Initialises an n by n square
+ </summary>
+	<param name="n">The size of the matrix</param>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.Matrix.#ctor(System.Int32,System.Int32)">
+	<summary>
+ Initialises a matrix with two inputs it initialises to a m by n square
+ </summary>
+	<param name="no_of_rows">The number of rows in the matrix</param>
+	<param name="no_of_columns">The number of columns in the matrix</param>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.Matrix.#ctor(System.Decimal[0:,0:])">
+	<summary>
+ Initialises a matrix with a two dimensional array input
+ </summary>
+	<param name="values">The array of values being converted into a matrix</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.Identity(System.Int32)">
+	<summary>
+ Returns an identity matrix of size n
+ </summary>
+	<param name="n">The size of the matrix</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.Print(System.Int32)">
+	<summary>
+ Prints the subject matrix to the console
+ Exists purely for testing purposes, not necessary in code
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Matrix.RemoveRow(System.Int32)">
+	<summary>
+ Omits a selected row from a matrix
+ </summary>
+	<param name="r">the index of the row to be omitted</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.RemoveColumn(System.Int32)">
+	<summary>
+ Omits a selected column from a matrix
+ </summary>
+	<param name="c">the index of the column to be omitted</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.Clone">
+	<summary>
+ Creates a clone of the current matrix
+ This is to stop copies of the matrix not creating a separate instance of the matrix and referencing the same properties
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Matrix.op_Addition(RegressionAnalysisTool.Matrix,RegressionAnalysisTool.Matrix)">
+	<summary>
+ Addition for matrices
+ </summary>
+	<param name="A">The left matrix</param>
+	<param name="B">The right matrix</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.op_Subtraction(RegressionAnalysisTool.Matrix,RegressionAnalysisTool.Matrix)">
+	<summary>
+ Subtraction of matrices
+ </summary>
+	<param name="A">The matrix being subtracted from</param>
+	<param name="B">The matrix that is being taken away from the other matrix</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.op_Multiply(System.Decimal,RegressionAnalysisTool.Matrix)">
+	<summary>
+ Defines scalar multiplication for matrices in a separate orientation
+ </summary>
+	<param name="A">The matrix in the multiplication</param>
+	<param name="k">The constant in the multiplication</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.op_Multiply(RegressionAnalysisTool.Matrix,System.Decimal)">
+	<summary>
+ Defines scalar multiplication for matrices in a separate orientation
+ </summary>
+	<param name="A">The matrix in the multiplication</param>
+	<param name="k">The constant in the multiplication</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.op_Multiply(RegressionAnalysisTool.Matrix,RegressionAnalysisTool.Matrix)">
+	<summary>
+ Matrix-matrix multiplication
+ </summary>
+	<param name="A">The left matrix in the multiplication</param>
+	<param name="B">The right matrix in the multiplication</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.MinorMatrix(System.Int32,System.Int32)">
+	<summary>
+ Omits a selected row and column from a matrix
+ </summary>
+	<param name="r">The index of the row to be omitted</param>
+	<param name="c">The column of the row to be omitted</param>
+</member><member name="M:RegressionAnalysisTool.Matrix.Transpose">
+	<summary>
+ Returns the transpose of the subject matrix
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Matrix.Determinant">
+	<summary>
+ Returns the determinant of a matrix
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Matrix.Inverse">
+	<summary>
+ Uses Gaussian Elimination to find the inverse of a matrix
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Matrix.RowEchelonForm">
+	<summary>
+ Returns the current matrix in reduced row echelon form
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Matrix.Rank">
+	<summary>
+ Returns the rank of the current matrix
+ </summary>
+</member><member name="T:RegressionAnalysisTool.Matrix">
+	<summary>
+ Represents the mathematical data structure Matrix
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphFormSettings.#ctor(RegressionAnalysisTool.Graph@)">
+	<summary>
+ Imports the graph settings
+ </summary>
+	<param name="g">The graph which the settings are imported from</param>
+</member><member name="M:RegressionAnalysisTool.GraphFormSettings.ConfirmSettingsClick(System.Object,System.EventArgs)">
+	<summary>
+ Exports the edited settings back to the form
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphFormSettings.CancelSettingsChange_Click(System.Object,System.EventArgs)">
+	<summary>
+ Event which occurs upon clicking the cancel button
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphFormSettings.RestoreDefault(System.Object,System.EventArgs)">
+	<summary>
+ Restores the default settings to the program
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphFormSettings.TextBoxTextChange(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+	<summary>
+ Ensures that only numerical values are input into the textboxes
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphFormSettings.BigDashWidthChange(System.Object,System.EventArgs)">
+	<summary>
+ Validates entries into the "Big Dash Interval" textbox
+ The entries can only be 1, 2 or 5 times a power of 10, that is an integer
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphFormSettings.IsPositiveInteger(System.String)">
+	<summary>
+ Validates strings to check if they are valid integers
+ </summary>
+	<param name="s">The string to be validated</param>
+</member><member name="T:RegressionAnalysisTool.GraphFormSettings">
+	<summary>
+ Defines the form for editing graph settings
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Statistics.Mean(RegressionAnalysisTool.Dataset)">
+	<summary>
+ Gets the mean of all the columns in a dataset
+ </summary>
+	<param name="D">The dataset on which the means are found</param>
+</member><member name="M:RegressionAnalysisTool.Statistics.SumOfSquares(RegressionAnalysisTool.Dataset)">
+	<summary>
+ Gets the sum of squares of all the columns in a dataset
+ </summary>
+	<param name="D">The dataset on which the means are found</param>
+</member><member name="M:RegressionAnalysisTool.Statistics.SumOfProducts(RegressionAnalysisTool.Dataset)">
+	<summary>
+ Gets the product sum of all combinations of columns in a dataset
+ </summary>
+	<param name="D">The dataset on which the means are found</param>
+</member><member name="M:RegressionAnalysisTool.Statistics.Variance(RegressionAnalysisTool.Dataset)">
+	<summary>
+ Gets the variance of all the columns in a dataset
+ </summary>
+	<param name="D">The dataset on which the means are found</param>
+</member><member name="M:RegressionAnalysisTool.Statistics.Covariance(RegressionAnalysisTool.Dataset)">
+	<summary>
+ Gets the covariance of all combinations of columns in a dataset
+ </summary>
+	<param name="D">The dataset on which the means are found</param>
+</member><member name="M:RegressionAnalysisTool.Statistics.PMCC(RegressionAnalysisTool.Dataset)">
+	<summary>
+ Gets the pearsons moment correlation coefficient of all combinations of columns in a dataset
+ </summary>
+	<param name="D">The dataset on which the means are found</param>
+</member><member name="M:RegressionAnalysisTool.Statistics.Spearmans(RegressionAnalysisTool.Dataset)">
+	<summary>
+ Gets the spearman's rank coefficient correlation of all combinations of columns in a dataset
+ </summary>
+	<param name="D">The dataset on which the means are found</param>
+</member><member name="T:RegressionAnalysisTool.Statistics">
+	<summary>
+ Contains statistical functions that take datasets as parameters
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.GraphForm.LoadGraphGrid">
+	<summary>
+ Loads the box and grid on which the graph will be drawn
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphForm.DrawExpression(RegressionAnalysisTool.Expression)">
+	<summary>
+ Draws a line on the graph based on an expression
+ </summary>
+	<param name="e">The expression to be plot</param>
+</member><member name="M:RegressionAnalysisTool.GraphForm.Plot">
+	<summary>
+ Plots a regression line based on two columns in a dataset
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.GraphForm.ScalePictureBox(System.Object,System.EventArgs)">
+	<summary>
+ Resizes the graph when the form is resized
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphForm.CopyGraphClick(System.Object,System.EventArgs)">
+	<summary>
+ Copies the content of the graph to the clipboard
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphForm.GraphSettingsClick(System.Object,System.EventArgs)">
+	<summary>
+ Opens the graph settings
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphForm.SaveGraph(System.Object,System.EventArgs)">
+	<summary>
+ Saves the current graph to a selected file type and location
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphForm.ValidateGraph">
+	<summary>
+ Throws an exception when an improper graph is about to be formed
+ </summary>
+</member><member name="M:RegressionAnalysisTool.GraphForm.UponClosure(System.Object,System.EventArgs)">
+	<summary>
+ The procedure that acts upon closure of the graph form
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.GraphForm.ExitForm(System.Object,System.EventArgs)">
+	<summary>
+ The procedure that acts upon leaving clicking the exit form button
+ </summary>
+</member><member name="T:RegressionAnalysisTool.GraphForm">
+	<summary>
+ The superclass of regression drawing forms
+ </summary>
+</member><member name="M:RegressionAnalysisTool.LinearGraph.#ctor(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,RegressionAnalysisTool.AnalysisForm@)">
+	<summary>
+ Creates a new Linear Regression graph
+ </summary>
+	<param name="Data">The Dataset on which the graph will be plotted</param>
+	<param name="x">The index of the independent variable</param>
+	<param name="y">The index of the dependent variable</param>
+</member><member name="T:RegressionAnalysisTool.LinearGraph">
+	<summary>
+ The subclass which draws linear regression lines
+ </summary>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.PolynomialGraph.#ctor(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,System.Int32,RegressionAnalysisTool.AnalysisForm@)">
+	<summary>
+ Creates a new Polynomial Regression graph
+ </summary>
+	<param name="Data">The Dataset on which the graph will be plotted</param>
+	<param name="x">The index of the independent variable</param>
+	<param name="y">The index of the dependent variable</param>
+	<param name="n">The degree of the polynomial</param>
+</member><member name="T:RegressionAnalysisTool.PolynomialGraph">
+	<summary>
+ The subclass which draws polynomial regression lines
+ </summary>
+</member><member name="M:RegressionAnalysisTool.NoLineGraph.#ctor(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,RegressionAnalysisTool.AnalysisForm@)">
+	<summary>
+ Creates a new Polynomial Regression graph
+ </summary>
+	<param name="Data">The Dataset on which the graph will be plotted</param>
+	<param name="x">The index of the independent variable</param>
+	<param name="y">The index of the dependent variable</param>
+</member><member name="M:RegressionAnalysisTool.NoLineGraph.Plot">
+	<summary>
+ Plots points on a graph
+ </summary>
+</member><member name="T:RegressionAnalysisTool.NoLineGraph">
+	<summary>
+ The subclass which draws graphs with no lines
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Win32.AllocConsole">
+	<summary>
+ Opens the console window
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Win32.FreeConsole">
+	<summary>
+ Closes the console window
+ </summary>
+</member><member name="T:RegressionAnalysisTool.Win32">
+	<summary>
+ Win32 allows for the opening of the console window within a forms applications
+ This exists purely for testing purposes, and is not necessary for the running
+ of the completed program.
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Expression.expression">
+	<summary>
+ Represents a mathematical expression
+ </summary>
+	<value>The string to be input as the value</value>
+</member><member name="M:RegressionAnalysisTool.Expression.#ctor">
+	<summary>
+ Creates a new expression
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Expression.#ctor(System.String)">
+	<summary>
+ Defines a new expression with an input string
+ </summary>
+	<param name="exp">The string to be used as the input</param>
+</member><member name="M:RegressionAnalysisTool.Expression.Legitimise(System.String)">
+	<summary>
+ Converts a string into a string with every separate variable delimited by a single space
+ </summary>
+	<param name="input">The input string to be converted</param>
+	<returns>Returns a string with every separate variable delimited by a single space</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.PrecedenceLevel(System.String)">
+	<summary>
+ Returns the relative precedence level of an operator
+ </summary>
+	<param name="symbol">The symbol for which the precedence level will be found</param>
+	<returns>Returns the relative precedence level of an operator</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.isOperator(System.String)">
+	<summary>
+ Returns a boolean expression determining whether an input is an operator
+ </summary>
+	<param name="input">The input string</param>
+	<returns>Returns a boolean expression determining whether an input is an operator</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.isNumber(System.String)">
+	<summary>
+ Returns a boolean expression determining whether an input is a number
+ </summary>
+	<param name="input">The input string</param>
+	<returns>Returns a boolean expression determining whether an input is a number</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.isOperand(System.String)">
+	<summary>
+ Returns a boolean expression determining whether an input is an operand
+ </summary>
+	<param name="input">The input string</param>
+	<returns>Returns a boolean expression determining whether an input is an operand</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.isOpenParentheses(System.String)">
+	<summary>
+ Returns a boolean expression determining whether an input is an opening parenthesis
+ </summary>
+	<param name="input">The input string</param>
+	<returns>Returns a boolean expression determining whether an input is an opening parenthesis</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.isClosedParentheses(System.String)">
+	<summary>
+ Returns a boolean expression determining whether an input is a closing parenthesis
+ </summary>
+	<param name="input">The input string</param>
+	<returns>Returns a boolean expression determining whether an input is a closing parenthesis</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.InfixToRPN(System.String)">
+	<summary>
+ Converts an infix expression into an RPN expression
+ </summary>
+	<param name="exp">The input string to be converted</param>
+	<returns>Returns an RPN expression</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.Evaluate(System.Double)">
+	<summary>
+ Evaluates an expression relative to x
+ </summary>
+	<param name="x">The parameter of the expression</param>
+	<returns>Returns an evaluated expression</returns>
+</member><member name="P:RegressionAnalysisTool.Expression.ReturnEvaluation(System.Double)">
+	<summary>
+ Returns the evaluation of the expression, where x is an input value
+ </summary>
+	<param name="x">The parameter of the expression</param>
+</member><member name="M:RegressionAnalysisTool.Expression.op_Implicit(RegressionAnalysisTool.Expression)~System.String">
+	<summary>
+ Defines conversion from expression to string
+ </summary>
+	<param name="f">The function for which the string is returned from</param>
+	<returns>Returns a string from an expression</returns>
+</member><member name="M:RegressionAnalysisTool.Expression.op_Explicit(System.String)~RegressionAnalysisTool.Expression">
+	<summary>
+ Defines conversion from string to expression
+ </summary>
+	<param name="s">The string to be converted into an expression</param>
+	<returns>Returns an expression from an input string</returns>
+</member><member name="T:RegressionAnalysisTool.Expression">
+	<summary>
+ Represents a mathematical expression
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Regression.StatisticsSummary(RegressionAnalysisTool.Dataset,System.Int32,System.Windows.Forms.TextBox@)">
+	<summary>
+ Returns summary statistics on the data
+ </summary>
+	<param name="D">The dataset on which the regression will be performed</param>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.Regression.SpearmansRankSummary(RegressionAnalysisTool.Dataset,System.Int32,System.Windows.Forms.TextBox@)">
+	<summary>
+ Returns Spearmans rank correlation coefficients for on the data
+ </summary>
+	<param name="D">The dataset on which the regression will be performed</param>
+</member><member name="M:RegressionAnalysisTool.Regression.PMCCSummary(RegressionAnalysisTool.Dataset,System.Int32,System.Windows.Forms.TextBox@)">
+	<summary>
+ Returns PMCC for on the data
+ </summary>
+	<param name="D">The dataset on which the regression will be performed</param>
+</member><member name="M:RegressionAnalysisTool.Regression.MultipleLinearSummary(RegressionAnalysisTool.Dataset,System.Int32,System.Boolean,System.Windows.Forms.TextBox@)">
+	<summary>
+ Perfoms a Multiple Linear Regression on a dataset, and returns summary statistics on the data
+ </summary>
+	<param name="D">The dataset on which the regression will be performed</param>
+	<param name="dependent">The index of the column of dependent variables</param>
+	<param name="ForceThroughOrigin">A boolean which decidess whether the line is forced through the origin</param>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.Regression.MultipleLinearRSS(RegressionAnalysisTool.Dataset,System.Int32,System.Boolean)">
+	<summary>
+ Perfoms a Multiple Linear Regression on a dataset, and returns the Residual Sum of Squares
+ </summary>
+	<param name="D">The dataset on which the regression will be performed</param>
+	<param name="dependent">The index of the column of dependent variables</param>
+	<param name="ForceThroughOrigin">A boolean which decidess whether the line is forced through the origin</param>
+	<remarks></remarks>
+</member><member name="M:RegressionAnalysisTool.Regression.MultiplicativeRegressionSummary(RegressionAnalysisTool.Dataset,System.Int32,System.Windows.Forms.TextBox@)">
+	<summary>
+ Perfoms a Multiplicative Regression on a dataset
+ </summary>
+	<param name="D">The dataset on which the regression will be performed</param>
+	<param name="dependent">The index of the column of dependent variables</param>
+</member><member name="M:RegressionAnalysisTool.Regression.MultiplicativeRegressionRSS(RegressionAnalysisTool.Dataset,System.Int32)">
+	<summary>
+ Perfoms a Multiplicative Regression on a dataset, and returns the Residual Sum of Squares
+ </summary>
+	<param name="D">The dataset on which the regression will be performed</param>
+	<param name="dependent">The index of the column of dependent variables</param>
+</member><member name="M:RegressionAnalysisTool.Regression.SinglePolynomialSummary(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,System.Int32,System.Windows.Forms.TextBox@)">
+	<summary>
+ Performs a single polynomial regression on a dataset
+ </summary>
+	<param name="D">The dataset on which the regression is being performed</param>
+	<param name="dependent">The index of the column of the dependent variable</param>
+	<param name="independent">The index of the column of the independent variable</param>
+	<param name="n">The degree of the resultant polynomial expression</param>
+</member><member name="M:RegressionAnalysisTool.Regression.SinglePolynomialRSS(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Performs a single polynomial regression on a dataset, and returns the Residual Sum of Squares
+ </summary>
+	<param name="D">The dataset on which the regression is being performed</param>
+	<param name="dependent">The index of the column of the dependent variable</param>
+	<param name="independent">The index of the column of the independent variable</param>
+	<param name="n">The degree of the resultant polynomial expression</param>
+</member><member name="M:RegressionAnalysisTool.Regression.SinglePolynomialExpression(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Performs a single polynomial regression on a dataset, and returns the expression for the curve
+ </summary>
+	<param name="D">The dataset on which the regression is being performed</param>
+	<param name="dependent">The index of the column of the dependent variable</param>
+	<param name="independent">The index of the column of the independent variable</param>
+	<param name="n">The degree of the resultant polynomial expression</param>
+</member><member name="M:RegressionAnalysisTool.Regression.SingleLinearSummary(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,System.Windows.Forms.TextBox@)">
+	<summary>
+ Performs a single linear regression on a dataset
+ </summary>
+	<param name="D">The dataset on which the regression is being performed</param>
+	<param name="dependent">The index of the column of the dependent variable</param>
+	<param name="independent">The index of the column of the independent variable</param>
+</member><member name="M:RegressionAnalysisTool.Regression.AutomaticAnalysis(RegressionAnalysisTool.Dataset,System.Int32,System.Int32,System.Windows.Forms.TextBox@)">
+	<summary>
+ Performs an analysis on the dataset to determine which regression is most optimal
+ </summary>
+	<param name="D">The dataset on which the regression is being performed</param>
+	<param name="dependent">The index of the column of the dependent variable</param>
+	<param name="maxExponent">The max exponent of the polynomial regressions</param>
+</member><member name="M:RegressionAnalysisTool.Regression.LinearDependenceSearch(RegressionAnalysisTool.Dataset,System.Windows.Forms.TextBox@)">
+	<summary>
+ Searches for linear dependence
+ </summary>
+	<param name="D">The dataset being checked for linear dependence</param>
+</member><member name="M:RegressionAnalysisTool.Regression.MultiplicativeDependenceSearch(RegressionAnalysisTool.Dataset,System.Windows.Forms.TextBox@)">
+	<summary>
+ Searches for multiplicative dependence
+ </summary>
+	<param name="D">The dataset being checked for multiplicative dependence</param>
+</member><member name="T:RegressionAnalysisTool.Regression">
+	<summary>
+ Contains all the types of regression
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Dataset.Column">
+	<summary>
+  Returns the number of columns in the dataset
+ </summary>
+	<returns>Returns the number of columns in the dataset</returns>
+</member><member name="P:RegressionAnalysisTool.Dataset.Row">
+	<summary>
+  Returns the number of rows in the dataset
+ </summary>
+	<returns>Returns the number of rows in the dataset</returns>
+</member><member name="P:RegressionAnalysisTool.Dataset.Header(System.Int32)">
+	<summary>
+ Returns a particular header from the dataset
+ </summary>
+	<param name="i">The index of the header to be returned</param>
+</member><member name="P:RegressionAnalysisTool.Dataset.Value(System.Int32,System.Int32)">
+	<summary>
+ Returns a particular value from the dataset
+ </summary>
+	<param name="r">The row of the value to be returned</param>
+	<param name="c">The column of the value to be returned</param>
+</member><member name="M:RegressionAnalysisTool.Dataset.getData">
+	<summary>
+ Returns the data from a dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Dataset.getRankedData">
+	<summary>
+ Returns the ranks of the data of a dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Dataset.getHeaders">
+	<summary>
+ Returns the headers from a dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Dataset.getMaxHeaderLength">
+	<summary>
+ Returns the length of the longest string in dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Dataset.Import(System.String,System.Boolean)">
+	<summary>
+ Imports a .csv table into the program
+ </summary>
+	<param name="address">The address of the .csv file</param>
+	<param name="contains_headers">Decides whether the .csv contains headers</param>
+</member><member name="M:RegressionAnalysisTool.Dataset.Print(System.Int32)">
+	<summary>
+ Prints the table inside the dataset
+ Exists purely for testing purposes rather than functional purposes
+ </summary>
+	<param name="decimal_places">The maximum number of decimal places to be displayed</param>
+</member><member name="T:RegressionAnalysisTool.Dataset">
+	<summary>
+ Represents a dataset and it's properties
+ </summary>
+</member><member name="T:RegressionAnalysisTool.Graph.Coordinate">
+	<summary>
+ Defines the coordinate structure, which contains an x and y coordinate
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Graph.Add(System.Decimal,System.Decimal)">
+	<summary>
+ Adds a point to the current graph
+ </summary>
+	<param name="x">The x value of the coordinate to be added</param>
+	<param name="y">The y value of the coordinate to be added</param>
+	<remarks></remarks>
+</member><member name="P:RegressionAnalysisTool.Graph.max_x">
+	<summary>
+ Returns maximum x value
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Graph.max_y">
+	<summary>
+ Returns maximum y value
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Graph.min_x">
+	<summary>
+ Returns minimum x value
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Graph.min_y">
+	<summary>
+ Returns minimum y value
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Graph.range_x">
+	<summary>
+ Returns the range of x values
+ </summary>
+</member><member name="P:RegressionAnalysisTool.Graph.range_y">
+	<summary>
+ Returns the range of y values
+ </summary>
+</member><member name="M:RegressionAnalysisTool.Graph.isInXRange(System.Decimal)">
+	<summary>
+ Determines whether an x coordinate is within the range of x values in the current graph
+ </summary>
+	<param name="x">The value to be determined</param>
+</member><member name="M:RegressionAnalysisTool.Graph.isInYRange(System.Decimal)">
+	<summary>
+ Determines whether a y coordinate is within the range of y values in the current graph
+ </summary>
+	<param name="y">The value to be determined</param>
+</member><member name="M:RegressionAnalysisTool.Graph.x_toCoordinate(System.Decimal,System.Windows.Forms.PictureBox)">
+	<summary>
+ Transforms an x coordinate into a pixel location
+ </summary>
+	<param name="x">The value of x to be transformed into a pixel location</param>
+	<param name="p">The PictureBox on which the graph is being plotted</param>
+</member><member name="M:RegressionAnalysisTool.Graph.y_toCoordinate(System.Decimal,System.Windows.Forms.PictureBox)">
+	<summary>
+ Transforms a y coordinate into a pixel location
+ </summary>
+	<param name="y">The value of y to be transformed into a pixel location</param>
+	<param name="p">The PictureBox on which the graph is being plotted</param>
+</member><member name="M:RegressionAnalysisTool.Graph.DrawCross(System.Drawing.Graphics@,System.Int32,System.Int32)">
+	<summary>
+ Draws a cross at an input pixel location
+ </summary>
+	<param name="canvas">The Graphics which the cross is being drawn to</param>
+	<param name="x">The x coordinate of the pixel</param>
+	<param name="y">The y coordinate of the pixel</param>
+</member><member name="M:RegressionAnalysisTool.Graph.DrawXDash(System.Drawing.Graphics@,System.Int32,System.Boolean,System.Windows.Forms.PictureBox)">
+	<summary>
+ Draws a dash at an x coordinate on the x axis
+ </summary>
+	<param name="canvas">The Graphics which the dash is being drawn to</param>
+	<param name="x">The x coordinate of the pixel</param>
+	<param name="isBigDash">Boolean which determines whether to draw a big dash</param>
+	<param name="p">The PictureBox on which the graph is being plotted</param>
+</member><member name="M:RegressionAnalysisTool.Graph.DrawYDash(System.Drawing.Graphics@,System.Int32,System.Boolean,System.Windows.Forms.PictureBox)">
+	<summary>
+ Draws a dash at a y coordinate on the x axis
+ </summary>
+	<param name="canvas">The Graphics which the dash is being drawn to</param>
+	<param name="y">The y coordinate of the pixel</param>
+	<param name="isBigDash">Boolean which determines whether to draw a big dash</param>
+	<param name="p">The PictureBox on which the graph is being plotted</param>
+</member><member name="M:RegressionAnalysisTool.Graph.OptimalDashWidth(System.Decimal)">
+	<summary>
+ Finds the optimal dash width for a given range
+ The optimal dash width is defined as the dash width at which the number of displayed dashes is closest to the optimal dash number
+ The mantissa of the optimal dash width is either 1, 2 or 5 in base 10
+ </summary>
+	<param name="range">The range on which the optimal dash width is found</param>
+</member><member name="M:RegressionAnalysisTool.Graph.Sketch(System.Drawing.Graphics@,System.Windows.Forms.PictureBox,System.String,System.String)">
+	<summary>
+ Sketches a curve on a given Graphic based on the content of the graph
+ </summary>
+	<param name="canvas">The Graphic on which the graph is drawn</param>
+	<param name="pb">The PictureBox which the graph is based on</param>
+	<param name="x_var_name">The name of the variable on the x axis</param>
+	<param name="y_var_name">The name of the variable on the y axis</param>
+</member><member name="M:RegressionAnalysisTool.Graph.SketchLine(System.Drawing.Graphics@,System.Windows.Forms.PictureBox,RegressionAnalysisTool.Expression,System.String,System.String)">
+	<summary>
+ Sketches a curve on a given Graphic based on the content of the graph
+ </summary>
+	<param name="canvas">The Graphic on which the graph is drawn</param>
+	<param name="pb">The PictureBox which the graph is based on</param>
+	<param name="line_expression">The expression of the line to be drawn</param>
+	<param name="x_var_name">The name of the variable on the x axis</param>
+	<param name="y_var_name">The name of the variable on the y axis</param>
+</member><member name="M:RegressionAnalysisTool.Graph.SketchResidualLine(System.Drawing.Graphics@,System.Windows.Forms.PictureBox,RegressionAnalysisTool.Expression,System.String,System.String)">
+	<summary>
+ Sketches residuals on a curve
+ </summary>
+	<param name="canvas">The Graphic on which the graph is drawn</param>
+	<param name="pb">The PictureBox which the graph is based on</param>
+	<param name="line_expression">The expression of the line on which the residuals will be drawn</param>
+	<param name="x_var_name">The name of the variable on the x axis</param>
+	<param name="y_var_name">The name of the variable on the y axis</param>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.#ctor">
+	<summary>
+ Creates an analysis form with no dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.#ctor(System.String,System.Boolean)">
+	<summary>
+ Creates a new analysis form
+ </summary>
+	<param name="address">The address of the data to be analysed in the form</param>
+	<param name="containsHeaders">determines whether the dataset comes with headers</param>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.LinearToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Plots a linear regression line based on two columns of the dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.PolynomialToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ Plots a polynomial regression line based on two columns of the dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.NoExpressionToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Plots a graph with no line based on two columns of the dataset
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.SpearmansRankToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns the Spearman's Rank Coefficients for all combinations of pairs of columns
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.PMCCToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns the Product Moment Correlation Coefficients for all combinations of pairs of columns
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.SummaryStatisticsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns the mean and variance of all columns
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.MultipleLinearToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns the summary of a Multiple Linear Regression on a dataset, based on one column as the dependent variable
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.SingleLinearToolStripMenuItem2_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns the summary of a Linear Regression on a dataset, based on two columns, one as the independent and one as the dependent variable
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.MultiplicativeToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns the summary of a Multiplicative Regression on a dataset, based on two columns, one as the independent and one as the dependent variable
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.PolynomialToolStripMenuItem2_Click(System.Object,System.EventArgs)">
+	<summary>
+ Returns the summary of a Polynomial Regression on a dataset, based on two columns, one as the independent and one as the dependent variable
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.AutomaticAnalysisToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Performs an Automatic Regression on a dataset, with based on one column as the dependent
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.LoadNewProjectToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits back to main menu, closing the analysis
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.ExitProgramToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Exits the program completely
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.RegressionFormClosing(System.Object,System.EventArgs)">
+	<summary>
+ Handles the closing of the analysis form
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.LinearSearchToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Searches the dataset for linear dependence
+ Linear dependence is when one column can be expressed as the sum of a multiple of any combination of columns
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.MultiplicativeSearchToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Searches the dataset for multiplicative dependence
+ Multiplicative dependence is when one column can be expressed as the product of powers of any combination of columns
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.SaveAnalysisData(System.Object,System.EventArgs)">
+	<summary>
+ Saves the content of the analysis window to a selected location
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.ClearToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Clears the analysis window
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.TextboxContentChange">
+	<summary>
+ Signals to the program that the analysis window's content has change, making suitable changes to the undo and redo stack
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.UndoToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Undoes the previous change to the analysis window
+ </summary>
+</member><member name="M:RegressionAnalysisTool.AnalysisForm.RedoToolStripMenuItem_Click(System.Object,System.EventArgs)">
+	<summary>
+ Redoes the previous undone change to the analysis window
+ </summary>
+</member>
+</members>
+</doc>

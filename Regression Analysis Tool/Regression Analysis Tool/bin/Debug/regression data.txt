@@ -1,0 +1,4 @@
+﻿Summary Stats on Polynomial Regression degree 1 on X to FX
+c: 3.77
+x^1: 0.003076
+

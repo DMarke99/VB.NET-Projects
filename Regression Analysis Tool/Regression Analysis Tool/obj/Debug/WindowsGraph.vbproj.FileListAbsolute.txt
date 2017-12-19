@@ -1,0 +1,40 @@
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe.config
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.pdb
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.xml
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.Resources.resources
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.vbproj.GenerateResource.Cache
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.exe
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.xml
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.pdb
+C:\Users\Diamor\Desktop\NEA\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.GraphForm.resources
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe.config
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.exe
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.xml
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.pdb
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.pdb
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.xml
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.GraphForm.resources
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.Resources.resources
+F:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.vbproj.GenerateResource.Cache
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe.config
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.exe
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.xml
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.pdb
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.pdb
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.xml
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.GraphForm.resources
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.Resources.resources
+E:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.vbproj.GenerateResource.Cache
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe.config
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.exe
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.xml
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.pdb
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.exe
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.pdb
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\bin\Debug\WindowsGraph.xml
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.GraphForm.resources
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.Resources.resources
+D:\School Work\Computer Science\NEA\Programs\WindowsGraph\WindowsGraph\obj\Debug\WindowsGraph.vbproj.GenerateResource.Cache

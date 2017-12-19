@@ -1,0 +1,21 @@
+﻿Summary Stats
+                  Mean            Variance
+Temperature  (K)  7.8798          1.7303 × 10^1   
+Power (W)         5.1146 × 10^4   3.7929 × 10^9   
+
+Spearman's Rank Correlation Coefficients
+                  Temperature  (K)  Power (W)         
+Temperature  (K)  /                 1.0000            
+Power (W)         1.0000            /                 
+
+Product Moment Correlation Coefficients
+                  Temperature  (K)  Power (W)         
+Temperature  (K)  1.0000            0.8646            
+Power (W)         0.8646            1.0000            
+
+Summary Stats of Linear Regression on Temperature  (K) to Power (W)
+Equation is of form: y = c + m * x
+Coefficients and Constants
+c: 4.89
+x: 0.0000584
+

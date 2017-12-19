@@ -1,0 +1,6 @@
+﻿Summary Stats on Polynomial Regression degree 3 on X to FX
+c: 1.76
+x^1: 0.00962
+x^2: -0.000003124
+x^3: 0.000000000374
+
