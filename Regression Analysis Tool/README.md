@@ -15,3 +15,7 @@ Once downloaded, open [Regression Analysis Tool.sln](https://github.com/DMarke99
 This will open the project in Visual Studio, from which the project can be viewed and run.
 
 Instructions for usage of the program can be found upon opening the program.
+
+### Warning
+
+Compiling the project on a Mac may cause some errors, since the project was coded on Windows.
